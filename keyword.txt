@@ -1,0 +1,51 @@
+
+#######################################
+# Syntax Coloring Map For Hall Switch
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin               KEYWORD2
+setIntensityRGB     KEYWORD2
+setIntensityRed     KEYWORD2
+setIntensityGreen   KEYWORD2
+setIntensityBlue    KEYWORD2
+setDimmingLevel     KEYWORD2
+setOffTimesRGB      KEYWORD2
+setCurrentRGB       KEYWORD2
+setFadeRate         KEYWORD2
+setWalkTime         KEYWORD2
+saveParameters      KEYWORD2
+setColor            KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+RGBShield       KEYWORD2
+RGBShieldIno    KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+OK                          LITERAL1
+INTF_ERROR                  LITERAL1
+RESET_ERROR                 LITERAL1
+POWER12_ERROR               LITERAL1
+TEMP_ERROR                  LITERAL1
+COMM_ERROR                  LITERAL1
+REG_ERROR                   LITERAL1
+INVALID_FUNC_STATUS_ERROR   LITERAL1
+INVALID_FUNC_INTF_ERROR     LITERAL1
+INVALID_CONFIG_ERROR        LITERAL1
+TIMEOUT_ERROR               LITERAL1
+UNINITED                    LITERAL1
+INITED                      LITERAL1
+ENAB                        LITERAL1

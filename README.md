@@ -5,6 +5,9 @@
 
 C++ library for the **XMC 3 channels RGB LED Lighting Shield with the XMC1202 and the XMC1302**.
 
+### Release Repository
+Please be aware that this repository is **only a release repository** for the Arduino framework. The whole documentation can be found in the corresponding [Cross-Platform-Library](https://github.com/Infineon/rgb-led-lighting-shield/tree/master).
+
 ### Supported Shields
 <table>
     <tr>
@@ -23,10 +26,10 @@ C++ library for the **XMC 3 channels RGB LED Lighting Shield with the XMC1202 an
         <td align="center"><img src="https://github.com/Infineon/rgb-led-lighting-shield/wiki/img/ino-logo.jpg" width=100></td>
     </tr>
     <tr>
-        <td style"text-align: center"><a href="">Arduino API</a></td>
+        <td style"text-align: center"><a href="https://github.com/Infineon/rgb-led-lighting-shield/wiki/Arduino-API">Arduino API</a></td>
     </tr>
     <tr>
-        <td style"text-align: center"><a href="">Ino-Getting-Started</a></td>
+        <td style"text-align: center"><a href="https://github.com/Infineon/rgb-led-lighting-shield/wiki/Ino-Getting-Started">Ino-Getting-Started</a></td>
     </tr>
 </table>
 

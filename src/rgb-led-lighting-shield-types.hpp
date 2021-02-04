@@ -1,8 +1,8 @@
 /** 
  * @file        rgb-led-lighting-shield-types.hpp
  * @brief       RGB LED LIGHTING SHIELD Library Types
- * @date        November 2020
- * @copyright   Copyright (c) 2020 Infineon Technologies AG
+ * @date        February 2021
+ * @copyright   Copyright (c) 2021 Infineon Technologies AG
  * 
  * SPDX-License-Identifier: MIT
  */

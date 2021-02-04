@@ -1,5 +1,3 @@
-#if RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO
-
 #include <Arduino.h>
 #include <rgb-led-lighting-shield-ino.hpp>
 
@@ -42,5 +40,3 @@ void loop()
     Serial.println("To start the example again press ENTER\n\n");
     while(Serial.read() != '\r'){}
 }
-
-#endif /** LED_DALI_KIT_FRAMEWORK == LED_DALI_KIT_FRMWK_ARDUINO **/

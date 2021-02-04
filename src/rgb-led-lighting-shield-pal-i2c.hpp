@@ -1,8 +1,8 @@
 /** 
  * @file        rgb-led-lighting-shield-pal-i2c.hpp
  * @brief       RGB LED LIGHTING SHIELD I2C Platform Abstraction Layer
- * @date        November 2020
- * @copyright   Copyright (c) 2020 Infineon Technologies AG
+ * @date        February 2021
+ * @copyright   Copyright (c) 2021 Infineon Technologies AG
  * 
  * SPDX-License-Identifier: MIT
  */

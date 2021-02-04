@@ -1,15 +1,13 @@
 /** 
  * @file        rgb-led-lighting-shield-pal-i2c-ino.cpp
  * @brief       RGB LED LIGHTING SHIELD I2C Platform Abstraction Layer Arduino
- * @date        November 2020
- * @copyright   Copyright (c) 2020 Infineon Technologies AG
+ * @date        February 2021
+ * @copyright   Copyright (c) 2021 Infineon Technologies AG
  * 
  * SPDX-License-Identifier: MIT
  */
 
 #include "rgb-led-lighting-shield-pal-i2c-ino.hpp"
-
-#if (RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO)
 
 /**
  * @brief Constructor of the IC2-Class for Arduino
@@ -294,5 +292,3 @@ Error_t I2CPALIno::writeDMX(uint16_t addr, uint8_t command)
 
     return err;
 }
-
-#endif /** RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO **/

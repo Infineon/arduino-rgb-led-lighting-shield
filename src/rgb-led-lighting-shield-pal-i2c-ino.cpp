@@ -9,8 +9,6 @@
 
 #include "rgb-led-lighting-shield-pal-i2c-ino.hpp"
 
-#if (RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO)
-
 /**
  * @brief Constructor of the IC2-Class for Arduino
  * 
@@ -294,5 +292,3 @@ Error_t I2CPALIno::writeDMX(uint16_t addr, uint8_t command)
 
     return err;
 }
-
-#endif /** RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO **/

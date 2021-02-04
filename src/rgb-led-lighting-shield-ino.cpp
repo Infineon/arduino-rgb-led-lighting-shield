@@ -9,8 +9,6 @@
 
 #include "rgb-led-lighting-shield-ino.hpp"
 
-#if (RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO)
-
 I2CPAL * custom_i2cpal = nullptr;
 
 RGBShieldIno::RGBShieldIno(TwoWire *wire): RGBShield((custom_i2cpal = new I2CPALIno(wire)))
@@ -36,6 +34,3 @@ Error_t RGBShieldIno::begin()
 
     return err;
 }
-
-#endif /** RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO **/
-

@@ -10,10 +10,6 @@
 #ifndef RGB_LED_LIGHTING_SHIELD_INO_HPP_
 #define RGB_LED_LIGHTING_SHIELD_INO_HPP_
 
-#include "rgb-led-lighting-shield-conf.hpp"
-
-#if (RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO)
-
 #include "rgb-led-lighting-shield.hpp"
 #include "rgb-led-lighting-shield-pal-i2c-ino.hpp"
 #include <Arduino.h>
@@ -27,5 +23,4 @@ class RGBShieldIno : virtual public RGBShield
         Error_t begin();
 };
 
-#endif /** RGB_LED_LIGHTING_SHIELD_FRAMEWORK == RGB_LED_LIGHTING_SHIELD_FRMWK_ARDUINO **/
 #endif /** RGB_LED_LIGHTING_SHIELD_INO_HPP_ **/

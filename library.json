@@ -1,0 +1,17 @@
+{  
+    "name":"RGB-LED-Lighting-Shield",
+    "keywords":"rgb, shield, xmc, led, arduino-library, cpp-library, infineon",
+    "description":"This library provides an Arduino library to interact with Infineons RBG-LED-Lighting-Shield",
+    "repository":{  
+       "type":"git",
+       "url":"https://github.com/Infineon/arduino-rgb-led-lighting-shield",
+       "branch":"master"
+    },
+    "version":"1.0.1",
+    "license":"MIT",
+    "frameworks":"arduino",
+    "platforms":[  
+       "infineonxmc",
+       "atmelavr"
+    ]
+ }

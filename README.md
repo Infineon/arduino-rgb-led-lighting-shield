@@ -1,7 +1,9 @@
-:warning: *The board's firmware of the RGB-DALI-Shield (XMC1302) is only changing the color of the attached LED-Strip every few seconds. In order to use the library for the shield you have to flash the firmware of the older RBG-Shield (XMC1202). The firmware is available [here](https://www.infineon.com/dgdl/Infineon-RGB_LED_Lighting_Shield_XMC1202_Source_Code-SW-v06_00-EN.zip?fileId=5546d46249cd10140149f5eae2081ef4&da=t).*
+> [!WARNING]
+> The board's firmware of the RGB-DALI-Shield (XMC1302) is only changing the color of the attached LED-Strip every few seconds. In order to use the library for the shield you have to flash the firmware of the older RBG-Shield (XMC1202). The firmware is available [here](https://www.infineon.com/dgdl/Infineon-RGB_LED_Lighting_Shield_XMC1202_Source_Code-SW-v06_00-EN.zip?fileId=5546d46249cd10140149f5eae2081ef4&da=t).
 
 # RGB LED Lighting Shield
-![Badge](https://github.com/djaumann/arduino-rgb-led-lighting-shield/workflows/build_test/badge.svg)
+
+[![Compile examples](https://github.com/Infineon/arduino-rgb-led-lighting-shield/actions/workflows/compile_examples.yml/badge.svg)](https://github.com/Infineon/arduino-rgb-led-lighting-shield/actions/workflows/compile_examples.yml)
 
 C++ library for the **XMC 3 channels RGB LED Lighting Shield with the XMC1202 and the XMC1302**.
 

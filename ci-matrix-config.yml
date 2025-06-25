@@ -1,0 +1,4 @@
+exclude:
+
+   - fqbn:
+      - arduino:samd:mkrzero
